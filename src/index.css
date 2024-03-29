@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/samsungone');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'SamsungOne', sans-serif;
+}
+
+
+.btn{
+  @apply bg-gray-500/25 hover:bg-gray-700 rounded-full text-[40px] w-[5rem] h-[5rem] flex items-center justify-center;
+}
+
+.small-btn{
+  @apply bg-gray-500/25 hover:bg-gray-700 rounded-full text-[15px] w-[3.75rem] h-[2rem] flex items-center justify-center;
+}
+
+.small-btn-num{
+  @apply bg-gray-500/25 hover:bg-gray-700 rounded-full text-[20px] w-[3.75rem] h-[2rem] flex items-center justify-center;
+}
+
+.small-btn-symbol{
+  @apply bg-gray-500/25 hover:bg-gray-700 rounded-full text-[30px] w-[3.75rem] h-[2rem] flex items-center justify-center;
+}
+
+.btn-alt{
+  @apply bg-gray-500/25 hover:bg-gray-700 rounded-full text-[30px] w-[5rem] h-[5rem] flex items-center justify-center;
+}
+
+.btn-equal{
+  @apply bg-white text-black rounded-full text-[70px] w-[5rem] h-[5rem] flex items-center justify-center;
+}
+
+
